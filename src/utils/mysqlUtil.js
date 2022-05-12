@@ -7,7 +7,7 @@ let config = {
 	port: '3306',
 	user: 'FreeDesign',
 	password: 'root',
-	database: 'FreeDesign',
+	database: 'freedesign',
 	encoding: 'UTF8'
 };
 
