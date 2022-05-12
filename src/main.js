@@ -31,11 +31,10 @@ projectController.run(app);
 otherController.run(app);
 
 // 端口
-let port = 80;
+let port = 99;
 
 app.listen(port);
-console.log('local test  : http://localhost:80');
-console.log('server test : http://xxxx:99');
+console.log(`服务已启动: http://localhost:${port}`);
 
 // 记录当前进程号
 let pid = process.pid;
