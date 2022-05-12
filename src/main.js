@@ -33,8 +33,10 @@ otherController.run(app);
 // 端口
 let port = 99;
 
-app.listen(port);
-console.log(`服务已启动: http://localhost:${port}`);
+app.listen(port, function(req, res) {
+	console.log(`服务已启动: http://localhost:${port}`);
+});
+
 
 // 记录当前进程号
 let pid = process.pid;
