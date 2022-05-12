@@ -3,10 +3,10 @@
   "version": "0.2.4",
   "description": "FreeDesign Server",
   "scripts": {
-    "exec": "node src/control.js",
     "start": "nodemon src/main.js",
     "test": "node src/scripts/test.js",
-    "close": "node src/close.js"
+    "start:prod": "node src/main.js",
+    "kill:prod": "node src/close.js"
   },
   "type": "module",
   "license": "ISC",
