@@ -16,7 +16,7 @@ for (let i = 0; i < max; i++) {
 }
 let now = max;
 
-// 获取数据库链接对象
+// 获取数据库连接对象
 function getConnection() {
 	if (now > 0) {
 		return connArr[--now];
