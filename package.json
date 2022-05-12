@@ -2,10 +2,9 @@
   "name": "freedesignserver",
   "version": "0.2.4",
   "description": "FreeDesign Server",
-  "main": "main.js",
   "scripts": {
     "exec": "node src/control.js",
-    "serve": "node src/main.js",
+    "start": "nodemon src/main.js",
     "test": "node src/scripts/test.js",
     "close": "node src/close.js"
   },
