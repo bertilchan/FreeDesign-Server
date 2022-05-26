@@ -7,7 +7,7 @@ import netUtil from '../utils/netUtil.js';
 import mimeUtil from '../utils/mimeUtil.js';
 import constUtil from '../utils/constUtil.js';
 
-let basePath = path.resolve('./runTime/');
+let basePath = path.resolve('./webapp/');
 
 function randomFileName() {
 	return Date.now();
@@ -46,6 +46,7 @@ async function releaseProject(id, type) {
 		let fileName = time + '.html';
 		url = '/preview/' + time;
 		let target = path.resolve(basePath, 'release', fileName);
+		console.log(target)
 		fs.writeFileSync(target, str);
 		setTimeout(() => {
 			fs.rmSync(target);

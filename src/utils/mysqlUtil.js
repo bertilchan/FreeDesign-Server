@@ -5,7 +5,8 @@ let connArr = [];
 let config = {
 	host: 'localhost',
 	port: '3306',
-	user: 'FreeDesign',
+	// user: 'root', // 本地
+	user: 'freedesign',
 	password: 'root',
 	database: 'freedesign',
 	encoding: 'UTF8'
