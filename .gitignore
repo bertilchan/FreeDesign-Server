@@ -1,9 +1,7 @@
 .DS_Store
 node_modules
 /dist
-log
 runTime
-log/pid.log
 ArchiveLog
 
 # local env files
